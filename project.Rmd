@@ -9,8 +9,44 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+<b>
+This data is information on 252 individuals' body fat, dimensions of body parts, and weights/densitys. The following are measured for each individual :
+
+- Density 
+
+- Percent Bodyfat
+
+- Age (Years)
+
+- Weight (Pounds)
+
+- Height (Inches)
+
+- Neck Circumfrence (cm)
+
+- Chest Circumfrence (cm)
+
+- Abdomen Circumfrence (cm)
+
+- Hip Circumfrence (cm)
+
+- Thigh Circumfrence (cm)
+
+- Knee Circumfrence (cm)
+
+- Ankle Circumfrence (cm)
+
+- Bicep Circumfrence (cm)
+
+- Forearm Circumfrence (cm)
+
+- Wrist Circumfrence (cm)
+
+</b>
+
 
 ```{r cars}
 fat_data <- read.csv(file = 'Bodyfat.csv')
-fat_data
+length(fat_data$bodyfat)
 ```
+
